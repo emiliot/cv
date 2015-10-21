@@ -1,0 +1,149 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Emilio} % Your first name
+\familyname{Tirado} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Carretera el Junquito, Km. 7, Casa \#2}{Caracas, Venezuela}
+\mobile{(0058) 416 3005145}
+\phone{(0058) 212 8347132}
+\email{emilio.tirado57@gmail.com}
+\homepage{linkedin: ve.linkedin.com/in/emiliot57} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+% \extrainfo{additional information}
+%\photo[70pt][0.4pt]{picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+% \quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\subsection{Technical Leader}
+\cventry{2014--Present}{Technical Leader}{\textsc{4Geeks.co}}{Caracas}{}{Technical leader of small team, working with several web projects, in charge of development, task assignments and coordination between members of the team.
+}
+\subsection{Software Engineer}
+\cventry{August 2015--Present}{Software Engineer}{\textsc{Upwork.com -- Spreenauten GmbH}}{Software engineer, working in a small startup team for radio rentals, using Python Pyramid as backend framework and AngularJS as frontend framework.}
+\subsection{Software Engineer}
+\cventry{2013--2014}{Software Engineer}{\textsc{4Geeks.co}}{Caracas}{}{Software engineer, working in a web project for medical histories and logistics, using Java EE architecture. My tasks involved working with the design and the implementation of models, web services and frontend views using GWT}
+
+\subsection{Software Engineer Intern}
+\cventry{2010}{Software Engineer Intern}{\textsc{Smartmatic}}{Caracas}{}{Software engineer intern, involved in the electoral system project, in charge of an automatization module for generation of electoral data, using Java EE architecture.}
+
+\subsection{Vocational}
+
+\cventry{2009--Present}{Deputy Leader}{\textsc{International Olympiad in Informatics}}{Caracas}{}{After being a contestant, I keep working with algorithm and programming contest competitions, specifically as a Deputy Leader of the Venezuelan delegation attending to the International Olympiad in Informatics. Also I kept participating in programming contests like ACM International Collegiate Programming Contest.
+\newline{}\newline{}
+Detailed achievements:
+\begin{itemize}
+\item Contestant in Egypt IOI-2008
+\item Deputy Leader in Bulgary, Canada, Thailand, Italy, Australia, Taipei and Kazakhstan in the IOI's from 2009 to 2015
+\item Contestant in Northern South America regional finals of the ACM-ICPC in 2010 and 2012
+\end{itemize}}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\cvitem{Advanced}{Algorithms and Data Structures}
+
+\subsection{Frameworks}
+\cvitem{Intermediate}{AngularJS, Jquery, and HTML/CSS}
+\cvitem{Intermediate}{Laravel, SailsJS (NodeJS with Express) and Java EE architecture}
+\cvitem{Basic}{Django, Pyramid, Rails, Play Framework and Bootstrap}
+
+\subsection{Programming Languages}
+\cvitem{Advanced}{C/C++ and Java}
+\cvitem{Intermediate}{Javascript, Python and PHP}
+\cvitem{Basic}{Ruby}
+
+\subsection{Other}
+\cvitem{Intermediate}{Version control systems (Git, Subversion), Linux and Windows environments}
+\cvitem{Basic}{Database management (Mysql, PostgreSQL, Oracle and MongoDB), server configuration (Nginx, Apache)}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+\cventry{2006--2015}{Bachelor in Computer Science}{Universidad Central de Venezuela}{Caracas}{}{}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{Spanish}{Mother tongue}{}
+\cvitemwithcomment{English}{Intermediate}{Conversationally fluent}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+% \clearpage
+
+% \recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+% \date{\today} % Letter date
+% \opening{Dear Sir or Madam,} % Opening greeting
+% \closing{Sincerely yours,} % Closing phrase
+% \enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+% \makelettertitle % Print letter title
+
+% \lipsum[1-3] % Dummy text
+
+% \makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
