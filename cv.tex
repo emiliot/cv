@@ -23,9 +23,9 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\documentclass[10pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
-\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
@@ -40,16 +40,15 @@
 
 \firstname{Emilio} % Your first name
 \familyname{Tirado} % Your last name
-
 % All information in this block is optional, comment out any lines you don't need
 \title{Curriculum Vitae}
-\address{Carretera el Junquito, Km. 7, Casa \#2}{Caracas, Venezuela}
-\mobile{(0058) 416 3005145}
-\phone{(0058) 212 8347132}
+\address{}{Caracas, Venezuela}
+\mobile{(+58) 412 7294811}
+\phone{(+58) 212 7536447}
 \email{emilio.tirado57@gmail.com}
 \homepage{linkedin: ve.linkedin.com/in/emiliot57} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
 % \extrainfo{additional information}
-%\photo[70pt][0.4pt]{picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\photo[70pt][0.4pt]{foto.png} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
 % \quote{"A witty and playful quotation" - John Smith}
 
 %----------------------------------------------------------------------------------------
@@ -58,26 +57,25 @@
 
 \makecvtitle % Print the CV title
 
+%-----------------------------------Intro
+I'm a very passionate software developer that enjoys solving problems and has a lot of fun programming, trying to keep things simple for me and others. My experience is mostly related to web architectures, working fullstack with several technologies and most likely solving problems related with design, logic and implementation of models and services. I would like to be part of a team where I can collaborate sharing and learning, trying new technologies and frameworks in order to solve new challenges.
+
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
 \section{Experience}
-
-\subsection{Technical Leader}
-\cventry{2014--Present}{Technical Leader}{\textsc{4Geeks.co}}{Caracas}{}{Technical leader of small team, working with several web projects, in charge of development, task assignments and coordination between members of the team.
+\subsection{Fullstack Software Engineer}
+\cventry{January 2016 -- present}{Fullstack Software Engineer}{\textsc{Blanclink}}{Caracas}{}{Fullstack software engineer, working with mobile hybrid applications and RESTful APIs
+\begin{itemize}
+	\item Digisalud: This project is a mobile hybrid application made using Ionic Framework, and a RESTful API using Jersey framework. My tasks were building frontend services and logic across the views, and doing the integration with the RESTful API.
+	\item HealthyMama: This project is a mobile native application using Swift for IOS development, and Jersey for the RESTful API. My tasks were building services in the API and model relationships.
+\end{itemize}
 }
-\subsection{Software Engineer}
-\cventry{August 2015--Present}{Software Engineer}{\textsc{Upwork.com -- Spreenauten GmbH}}{Software engineer, working in a small startup team for radio rentals, using Python Pyramid as backend framework and AngularJS as frontend framework.}
-\subsection{Software Engineer}
-\cventry{2013--2014}{Software Engineer}{\textsc{4Geeks.co}}{Caracas}{}{Software engineer, working in a web project for medical histories and logistics, using Java EE architecture. My tasks involved working with the design and the implementation of models, web services and frontend views using GWT}
-
-\subsection{Software Engineer Intern}
-\cventry{2010}{Software Engineer Intern}{\textsc{Smartmatic}}{Caracas}{}{Software engineer intern, involved in the electoral system project, in charge of an automatization module for generation of electoral data, using Java EE architecture.}
 
 \subsection{Vocational}
 
-\cventry{2009--Present}{Deputy Leader}{\textsc{International Olympiad in Informatics}}{Caracas}{}{After being a contestant, I keep working with algorithm and programming contest competitions, specifically as a Deputy Leader of the Venezuelan delegation attending to the International Olympiad in Informatics. Also I kept participating in programming contests like ACM International Collegiate Programming Contest.
+\cventry{2009 -- Present}{Deputy Leader}{\textsc{International Olympiad in Informatics}}{Caracas}{}{After being a contestant, I keep working with algorithm and programming contest competitions, specifically as a Deputy Leader of the Venezuelan delegation attending to the International Olympiad in Informatics. Also I kept participating in programming contests like ACM International Collegiate Programming Contest.
 \newline{}\newline{}
 Detailed achievements:
 \begin{itemize}
@@ -86,27 +84,54 @@ Detailed achievements:
 \item Contestant in Northern South America regional finals of the ACM-ICPC in 2010 and 2012
 \end{itemize}}
 
+\subsection{Technical Leader}
+\cventry{September 2014 -- December 2015}{Technical Leader}{\textsc{4Geeks.co}}{Caracas}{}{Technical leader of small team, working with several web projects, in charge of development, task assignments and coordination between members of the team.
+\begin{itemize}
+	\item Dreambuilder: This project is an AngularJS app that consumes a Django middleware service for a wedding planning company. My tasks were building frontend logic for asynchronous communication with the middleware, implementation frontend templates to show the data and constructing AngularJS filters and directives to clean up the logic and keep the code clean.
+	\item Level Chef: This project was built in Python using Django framework 1.8 and Django Rest Framework and is intended to be a Restful API for an e-learning platform. I was on charge of the design of the models and relationships, as well as modeling the services exposed to the consumers.
+	\item Century21 Peru: This project was built in PHP for backend using laravel framework 4.2, and the frontend using Jquery and handlebars for AJAX calls and templating. In this project I was acting as a full stack developer, continuing the development of a previous developers. My tasks in this project involved model management, services design and integration, refactoring to clean up the code, and writting templates for the views.
+\end{itemize}}
+
+\subsection{Software Engineer}
+\cventry{August 2015 -- October 2015}{Software Engineer}{\textsc{Upwork.com -- Spreenauten GmbH}}{Freelancer}{}{Software engineer, working in a  startup team for radio rentals, using Python Pyramid as backend framework and AngularJS as frontend framework. My tasks in this project were adding filters and templates functionality in frontend views using AngularJS, also making improvements to the pdfs templates of the system using jinja2, and adding some logic on the services as well as modifications in the models using SQLAlchemy.}
+
+\subsection{Bachelor's degree Thesis}
+\cventry{2014 - 2015}{Software developer}{\textsc{Universidad Central de Venezuela}}{Caracas}{}{Construction of a judging system for algorithm competitions. This project included three main parts a frontend based on AngularJS a backend server built on SailsJS framework and a task runner daemon using docker. The server was on charge to serve the information related to the contests running, allow contestants to send tasks, and allow juries to issue orders to evaluate and give the final result to users. The daemon was on charge to take unreliable code and running it using docker for sandbox, calculating the results and sending it back to the juries. Most of this communication was done using websockets to offer the best experience for the users. I was on charge of the design and implementation of the services, interactions, synchronizations and all the features offered in the system.}
+
+\subsection{Software Engineer}
+\cventry{March 2013 -- August 2014}{Software Engineer}{\textsc{4Geeks.co}}{Caracas}{}{Software engineer, working in a web project for medical histories and logistics, using Java EE architecture, and GWT for the frontend design and implementation. My tasks in this project were building and helping the design of the models of the system as well as the services exposed in form of EJB for business logic. Also I have worked in the propagation of the events in the views and the whole navigation and communication process.}
+
+\subsection{Software Engineer Intern}
+\cventry{2010}{Software Engineer Intern}{\textsc{Smartmatic}}{Caracas}{}{Software engineer intern, working in the electoral system project, in charge of an automatization module for electoral data generation, using Java EE architecture. In this project my task was building a servlet capable with the minimum information required, generate the data structures and basic information in order to start a real voting event. This information required hierarchical management and graph traversal algorithms to do it in a short timeframe.}
+
+\subsection{Teaching Assistant}
+\cventry{March 2011 -- March 2013}{Teaching Assistant}{\textsc{Universidad Central de Venezuela}}{Caracas}{}{Teaching assistant in the Math School of the university. I was on charche of network infraestructure, web page and server maintenance.}
+
+\subsection{Teaching Fellow}
+\cventry{October 2008 -- March 2011}{Teaching Fellow}{\textsc{Universidad Central de Venezuela}}{Caracas}{}{Teaching fellow for algorithms and data structures course in the Computer Science School}
+
 %----------------------------------------------------------------------------------------
 %	COMPUTER SKILLS SECTION
 %----------------------------------------------------------------------------------------
 
 \section{Skills}
 
-\cvitem{Advanced}{Algorithms and Data Structures}
+\cvitem{Proficient}{Algorithms and Data Structures}
 
-\subsection{Frameworks}
-\cvitem{Intermediate}{AngularJS, Jquery, and HTML/CSS}
-\cvitem{Intermediate}{Laravel, SailsJS (NodeJS with Express) and Java EE architecture}
-\cvitem{Basic}{Django, Pyramid, Rails, Play Framework and Bootstrap}
+\subsection{Frameworks and technologies}
+\cvitem{Proficient}{AngularJS, Jquery and AJAX}
+\cvitem{Experienced}{NodeJS, SailsJS, Java EE frameworks, Django, Laravel and HTML/CSS}
+\cvitem{Basic}{Pyramid, SQLAlchemy, Jinja, Rails, Play Framework, Bootstrap, Sass, OpenGL and GLSL}
+\cvitem{Interested}{React, ES2015, IOS and Android}
 
 \subsection{Programming Languages}
-\cvitem{Advanced}{C/C++ and Java}
-\cvitem{Intermediate}{Javascript, Python and PHP}
+\cvitem{Proficient}{C++ and Java}
+\cvitem{Experienced}{Javascript, Python and PHP}
 \cvitem{Basic}{Ruby}
 
 \subsection{Other}
-\cvitem{Intermediate}{Version control systems (Git, Subversion), Linux and Windows environments}
-\cvitem{Basic}{Database management (Mysql, PostgreSQL, Oracle and MongoDB), server configuration (Nginx, Apache)}
+\cvitem{Intermediate}{Version control systems (Git, Subversion)}
+\cvitem{Basic}{Database management (Mysql, PostgreSQL, Oracle and MongoDB), server configuration (Nginx, Apache), IaaS (Heroku), Virtualization (Docker, Vagrant), Continuous Integration (Jenkins),  LaTeX}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
@@ -118,11 +143,16 @@ Detailed achievements:
 %----------------------------------------------------------------------------------------
 %	LANGUAGES SECTION
 %----------------------------------------------------------------------------------------
+\section{Personal Programming Profiles}
+\cvitem{TopCoder}{\url{https://www.topcoder.com/members/emiliot/}}
+\cvitem{Spoj}{\url{http://www.spoj.com/users/blackperl/}}
+\cvitem{Codewars}{\url{http://www.codewars.com/users/emiliot}}
+\cvitem{Hackerrank}{\url{https://www.hackerrank.com/emiliot}}
 
-\section{Languages}
+%\section{Languages}
 
-\cvitemwithcomment{Spanish}{Mother tongue}{}
-\cvitemwithcomment{English}{Intermediate}{Conversationally fluent}
+%\cvitemwithcomment{Spanish}{Mother tongue}{}
+%\cvitemwithcomment{English}{Intermediate}{Conversationally fluent}
 
 %----------------------------------------------------------------------------------------
 %	COVER LETTER
